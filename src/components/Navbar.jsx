@@ -50,27 +50,7 @@ const Navbar = () => {
                     <span className="text-gradient">Esakki Anand's Portfolio</span>
                 </a>
                 
-                <ul 
-                    className="nav-links" 
-                    id="navLinks"
-                    style={{
-                        display: mobileMenuOpen || window.innerWidth > 768 ? 'flex' : 'none',
-                        flexDirection: window.innerWidth <= 768 ? 'column' : 'row',
-                        position: window.innerWidth <= 768 ? 'absolute' : 'static',
-                        top: window.innerWidth <= 768 ? '100%' : 'auto',
-                        left: window.innerWidth <= 768 ? '0' : 'auto',
-                        width: window.innerWidth <= 768 ? '100%' : 'auto',
-                        background: window.innerWidth <= 768 
-                            ? (theme === 'light' ? 'rgba(255, 255, 255, 0.98)' : 'rgba(15, 23, 42, 0.98)')
-                            : 'transparent',
-                        backdropFilter: window.innerWidth <= 768 ? 'blur(16px)' : 'none',
-                        padding: window.innerWidth <= 768 ? '2rem' : '0',
-                        gap: window.innerWidth <= 768 ? '2rem' : '2.5rem',
-                        borderBottom: window.innerWidth <= 768 
-                            ? (theme === 'light' ? '1px solid rgba(0,0,0,0.08)' : '1px solid rgba(255,255,255,0.08)')
-                            : 'none'
-                    }}
-                >
+                <ul className={`nav-links ${mobileMenuOpen ? 'active' : ''}`} id="navLinks">
                     <li><a href="#about" className="nav-link" onClick={() => setMobileMenuOpen(false)}>About</a></li>
                     <li><a href="#skills" className="nav-link" onClick={() => setMobileMenuOpen(false)}>Skills</a></li>
                     <li><a href="#projects" className="nav-link" onClick={() => setMobileMenuOpen(false)}>Projects</a></li>

@@ -42,9 +42,10 @@ function App() {
         };
         document.body.addEventListener('pointermove', handlePointerMove);
 
-        // --- 3D Tilt Effect on Glass Panels ---
+        // --- 3D Tilt Effect on Glass Panels (Desktop Only) ---
         const cards = document.querySelectorAll('.glass-panel');
         const handleMouseMove = (e) => {
+            if (window.innerWidth <= 768) return;
             const card = e.currentTarget;
             const rect = card.getBoundingClientRect();
             const x = e.clientX - rect.left;
