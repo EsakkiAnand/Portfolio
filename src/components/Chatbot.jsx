@@ -28,7 +28,7 @@ const Chatbot = () => {
         } else if (lowerInput.includes('education') || lowerInput.includes('college') || lowerInput.includes('study') || lowerInput.includes('university') || lowerInput.includes('degree')) {
             return "I am currently pursuing my B.Tech in Computer Science and Business Systems at Francis Xavier Engineering College (2023-2027) with an 8.51 CGPA.";
         } else if (lowerInput.includes('experience') || lowerInput.includes('intern') || lowerInput.includes('job')) {
-            return "I have completed 4+ internships, including Machine Learning at Corizo, Full Stack Development, and serving as a Google Student Ambassador (June-Dec 2025).";
+            return "I have completed 4 internships: Software Developer at Profit.co, Machine Learning Intern at IIT Ropar, Machine Learning Intern at Corizo, and AIML Inplant Training at Codebind Technologies.";
         } else if (lowerInput.includes('award') || lowerInput.includes('hackathon') || lowerInput.includes('prize')) {
             return "I have won 6+ hackathons, including the Visai Hackathon 2026 (Marvell Company), Aatral Project Expo, and Gracevity Project Expo!";
         } else if (lowerInput.includes('hi') || lowerInput.includes('hello') || lowerInput.includes('hey')) {

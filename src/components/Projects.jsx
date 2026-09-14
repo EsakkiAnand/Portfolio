@@ -19,8 +19,7 @@ const Projects = () => {
                         </div>
                         <p className="project-desc">A surveillance system designed for coastal fishermen to alert them before
                             crossing international boundary lines via real-time tracking.</p>
-                        <a href="#" className="btn btn-outline" style={{ alignSelf: 'flex-start', padding: '0.5rem 1rem' }}>View
-                            Details</a>
+                        <a href="https://github.com/Nowfil5/Geospatial-Boundary-surviellance-System" target="_blank" rel="noopener noreferrer" className="btn btn-outline" style={{ alignSelf: 'flex-start', padding: '0.5rem 1rem' }}>View on GitHub</a>
                     </div>
                 </div>
 
@@ -149,6 +148,24 @@ const Projects = () => {
                         </div>
                         <p className="project-desc">Developed a comprehensive full-stack game dashboard application to manage game states and user interactions effectively.</p>
                         <a href="#" className="btn btn-outline" style={{ alignSelf: 'flex-start', padding: '0.5rem 1rem' }}>View Details</a>
+                    </div>
+                </div>
+
+                {/* Project 8 */}
+                <div className="project-card glass-panel fade-in" style={{ transitionDelay: '0.8s' }}>
+                    <div className="project-image"
+                        style={{ background: 'linear-gradient(135deg, rgba(234, 88, 12, 0.2), #0f172a)' }}>
+                        <ShieldCheck size={64} />
+                    </div>
+                    <div className="project-content">
+                        <h3 className="project-title">Seasonal Deceptive Website Detector</h3>
+                        <div className="project-tags">
+                            <span className="tag">Machine Learning</span>
+                            <span className="tag">Python</span>
+                            <span className="tag">Streamlit</span>
+                        </div>
+                        <p className="project-desc">A machine learning-based detector designed to identify fraudulent or deceptive websites that exploit seasonal trends.</p>
+                        <a href="https://github.com/mohamed-mydeen/seasonal-deceptive-website-detector" target="_blank" rel="noopener noreferrer" className="btn btn-outline" style={{ alignSelf: 'flex-start', padding: '0.5rem 1rem' }}>View on GitHub</a>
                     </div>
                 </div>
             </div>

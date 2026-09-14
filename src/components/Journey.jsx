@@ -39,33 +39,37 @@ const Journey = () => {
                         <div className="pt-item">
                             <div className="pt-dot"></div>
                             <div className="pt-content glass-panel">
-                                <span className="pt-date">May 2024 - June 2024</span>
+                                <span className="pt-date">July 2026 - Present</span>
+                                <h4 className="pt-title">Software Developer</h4>
+                                <p className="pt-org">Profit.co, Madurai</p>
+                                <p className="pt-desc">Developed AI-powered features and automation solutions using LLMs and APIs.</p>
+                            </div>
+                        </div>
+                        <div className="pt-item">
+                            <div className="pt-dot"></div>
+                            <div className="pt-content glass-panel">
+                                <span className="pt-date">May - August 2026</span>
                                 <h4 className="pt-title">Machine Learning Intern</h4>
-                                <p className="pt-org">Corizo-Bangalore (Online)</p>
+                                <p className="pt-org">IIT Ropar (Online)</p>
+                                <p className="pt-desc">Developed and implemented an AI/ML-based solution as part of an IIT internship, gaining hands-on experience in real-world machine learning and software development.</p>
                             </div>
                         </div>
                         <div className="pt-item">
                             <div className="pt-dot"></div>
                             <div className="pt-content glass-panel">
-                                <span className="pt-date">July 2024</span>
-                                <h4 className="pt-title">AI/ML Inplant Training</h4>
+                                <span className="pt-date">June - August 2024</span>
+                                <h4 className="pt-title">Machine Learning Intern</h4>
+                                <p className="pt-org">Corizo Edutech Private Limited, Bangalore</p>
+                                <p className="pt-desc">Worked on machine learning concepts using Python and model implementation. Performed data preprocessing and basic predictive analysis tasks.</p>
+                            </div>
+                        </div>
+                        <div className="pt-item">
+                            <div className="pt-dot"></div>
+                            <div className="pt-content glass-panel">
+                                <span className="pt-date">May - June 2024</span>
+                                <h4 className="pt-title">AIML Inplant Training</h4>
                                 <p className="pt-org">Codebind Technologies, Coimbatore</p>
-                            </div>
-                        </div>
-                        <div className="pt-item">
-                            <div className="pt-dot"></div>
-                            <div className="pt-content glass-panel">
-                                <span className="pt-date">June 2025 - Dec 2025</span>
-                                <h4 className="pt-title">Google Student Ambassador</h4>
-                                <p className="pt-org">Google (Online)</p>
-                            </div>
-                        </div>
-                        <div className="pt-item">
-                            <div className="pt-dot"></div>
-                            <div className="pt-content glass-panel">
-                                <span className="pt-date">Dec 2025</span>
-                                <h4 className="pt-title">Full Stack Intern</h4>
-                                <p className="pt-org">Online (1 Month)</p>
+                                <p className="pt-desc">Gained exposure to artificial intelligence and machine learning workflows.</p>
                             </div>
                         </div>
                     </div>
