@@ -1,5 +1,5 @@
 import React from 'react';
-import { Ship, ShieldCheck, Home, Brain, Thermometer } from 'lucide-react';
+import { Ship, ShieldCheck, Home, Brain, Thermometer, Zap } from 'lucide-react';
 
 const Projects = () => {
     return (
@@ -166,6 +166,25 @@ const Projects = () => {
                         </div>
                         <p className="project-desc">A machine learning-based detector designed to identify fraudulent or deceptive websites that exploit seasonal trends.</p>
                         <a href="https://github.com/mohamed-mydeen/seasonal-deceptive-website-detector" target="_blank" rel="noopener noreferrer" className="btn btn-outline" style={{ alignSelf: 'flex-start', padding: '0.5rem 1rem' }}>View on GitHub</a>
+                    </div>
+                </div>
+
+                {/* Project 9 - Seraph Zenith */}
+                <div className="project-card glass-panel fade-in" style={{ transitionDelay: '0.9s' }}>
+                    <div className="project-image"
+                        style={{ background: 'linear-gradient(135deg, rgba(109, 40, 217, 0.3), rgba(16, 185, 129, 0.15))' }}>
+                        <Zap size={64} />
+                    </div>
+                    <div className="project-content">
+                        <h3 className="project-title">Seraph Zenith</h3>
+                        <div className="project-tags">
+                            <span className="tag">Edge AI</span>
+                            <span className="tag">YOLOv8</span>
+                            <span className="tag">PyTorch</span>
+                            <span className="tag">Hailo-8</span>
+                        </div>
+                        <p className="project-desc">A real-time computer vision system for aerial object detection and stranded-victim recognition. YOLOv8 models converted to ONNX and deployed on Hailo-8 via Raspberry Pi 5 AI HAT+. Achieved 86.2% mAP@50 and 43.5 FPS on RTX 3050.</p>
+                        <a href="#" className="btn btn-outline" style={{ alignSelf: 'flex-start', padding: '0.5rem 1rem' }}>View Details</a>
                     </div>
                 </div>
             </div>

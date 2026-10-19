@@ -49,10 +49,15 @@ const Skills = () => {
                     <h3 className="category-header">Tools & Platforms</h3>
                     <ul className="skill-list">
                         <li>Git</li>
+                        <li>Docker</li>
+                        <li>AWS</li>
                         <li>VS Code</li>
                         <li>Vercel</li>
                         <li>Render</li>
-                        <li>Docker</li>
+                        <li>OpenCV</li>
+                        <li>ONNX</li>
+                        <li>Hailo-8</li>
+                        <li>Raspberry Pi 5 AI HAT+</li>
                     </ul>
                 </div>
 
